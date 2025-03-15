@@ -136,14 +136,19 @@ def quiz_start():
 
         if choice == "science":
             science_quiz()
+            break
         elif choice == "math":
             math_quiz()
+            break
         elif choice == "world affairs":
             world_affairs_quiz()
+            break
         elif choice == "world history":
             world_history_quiz()
+            break
         elif choice == "random":
             random_quiz()
+            break
         else:
             print("Please only pick from the choices. \n")
 
