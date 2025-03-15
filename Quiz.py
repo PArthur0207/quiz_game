@@ -2,20 +2,21 @@
 # Make this code access the text file
 quiz_file = open("the_quiz.txt", "r")
 lines = quiz_file.read().splitlines()
-print(lines[0])
-print(lines[2])
-print(lines[3])
-print(lines[4])
-print(lines[5])
-print(lines[6])
 
-answer = input("Answer here: ").strip().upper()
-correct = lines[8].strip()
-print(correct)
-if answer == correct:
-    print("Correct!")
-else:
-    print("Wrong!")
+for i in range(0, len(lines), 8):
+    print(lines[i])
+    print(lines[i + 1])
+    print(lines[i + 2])
+    print(lines[i + 3])
+    print(lines[i + 4])
+
+    answer = input("Answer here: ").strip().upper()
+    correct = lines[i + 6].strip()
+    print(correct)
+    if answer == correct:
+        print("Correct!")
+    else:
+        print("Wrong!")
 # Multiple choice picking from a-d
 # Make code shorter
 # Tracks the test scores
