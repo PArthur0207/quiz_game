@@ -21,3 +21,59 @@
     D. Horse
         Answer:
             D
+
+4. Which is the major cholesterol producing site in the human body?
+    A. The liver
+    B. The pancreas
+    C. The stomach
+    D. The heart
+        Answer:
+            A
+
+5. What is the shape of our galaxy?
+    A. Spiral
+    B. Elliptical
+    C. Irregular
+    D. Regular
+        Answer:
+            A
+
+6. Which bird has the record for long-distance migratory flying?
+    A. The secretary bird
+    B. The hummingbird
+    C. The arctic tern
+    D. The blue jay
+        Answer:
+            C
+
+7. Which country was divided to carve out the territory of Israel?
+    A. India
+    B. Bangladesh
+    C. United States of America
+    D. Palestine
+        Answer:
+            D
+
+8. Which among these pollutions are more human illnesses due?
+    A. Noise pollution
+    B. Air pollution
+    C. Water pollution
+    D. Soil pollution
+        Answer:
+            C
+
+9. Which is the largest constellation of stars in the sky:
+    A. Hydra
+    B. Orion
+    C. Ursa major
+    D. Big dipper
+        Answer:
+            A
+
+10. What is a bug in a computer?
+    A. The person coding
+    B. An error in the program
+    C. The motherboard
+    D. The centrsl processing unit 
+        Answer:
+            B
