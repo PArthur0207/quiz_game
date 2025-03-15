@@ -1,6 +1,7 @@
 # Initialize text file containing quiz questions and answers
-# Make this code access the text file
-quiz_file = open("the_quiz.txt", "r")
+
+score = 0
+quiz_file = open("the_quiz.txt", "r") # Make this code access the text file
 lines = quiz_file.read().splitlines()
 
 for i in range(0, len(lines), 8):
@@ -11,15 +12,14 @@ for i in range(0, len(lines), 8):
     print(lines[i + 4])
 
     answer = input("Answer here: ").strip().upper()
-    correct = lines[i + 6].strip()
-    print(correct)
+    correct = lines[i + 6].strip() # Multiple choice picking from a-d
     if answer == correct:
         print("Correct!")
+        score += 1 # Tracks the test scores
     else:
         print("Wrong!")
-# Multiple choice picking from a-d
-# Make code shorter
-# Tracks the test scores
-# Show text scores
+        print(f"The correct answer is {correct}")
+
+print(f"You got {score} correct answers!") # Show text scores
 
 quiz_file.close()
